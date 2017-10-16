@@ -1,0 +1,29 @@
+
+h1 {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1;
+    font-family: Trebuchet;
+    padding: 1.5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+body {
+    background-image: url("../Images/stormy-weather-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 793px;
+}
+
+p {
+    color: white;
+    border: 4px double;
+    font-family: Arial;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
