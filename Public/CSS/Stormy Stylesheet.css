@@ -2,21 +2,19 @@
 h1 {
     color: white;
     background: rgba(0, 0, 0, 0.5);
-    font-size: 3rem;
+    font-size: 40px;
     margin: 0;
     line-height: 1;
     font-family: Trebuchet;
-    padding: 1.5rem;
-    justify-content: space-between;
     display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
-
 body {
     background-image: url("../Images/stormy-weather-background.jpg");
     background-repeat: no-repeat;
     background-size: 1600px 793px;
 }
-
 p {
     color: white;
     border: 4px double;
@@ -27,3 +25,127 @@ p {
     margin-left: 5rem;
     margin-top: 5rem;
 }
+
+#icon {
+    justify-content: right;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+
+#icon img {
+    width: 40%;
+    height: 40%;
+    filter: brightness(400%);
+}
+
+#icon2 {
+    justify-content: right;
+    position: absolute;
+    right: 58px;
+    top: 10px;
+}
+
+#icon2 img {
+    width: 40%;
+    height: 40%;
+    filter: brightness(100%);
+    filter: invert(30%);
+}
+
+#icon3 {
+    justify-content: right;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+}
+
+#icon3 img {
+    width: 40%;
+    height: 40%;
+    filter: brightness(100%);
+    filter: invert(30%);
+}
+
+@media screen and (max-width: 400px) and (min-width: 360px) {
+    h1 {
+        justify-content: center;
+        position: relative;
+        display: inline;
+        font-size: 30px;
+        padding-right: 147px;
+    }
+    #icon {
+        top: 7px;
+        right: 22px;
+    }
+    #icon img {
+        width: 30%;
+        height: 30%;
+        filter: brightness(100%);
+    }
+    #icon2 {
+        top: 7px;
+        right: -10px;
+    }
+    #icon2 img {
+        width: 30%;
+        height: 30%;
+        filter: invert(100%);
+    }
+    #icon3 {
+        top: 7px;
+        right: -40px;
+    }
+    #icon3 img {
+        width: 30%;
+        height: 30%;
+        filter: invert(30%);
+    }
+}
+
+    @media screen and (max-width: 768px) and (min-width: 750px) {
+        h1 {
+            justify-content: center;
+            position: relative;
+            display: inline;
+            font-size: 60px;
+            padding-right: 340px;
+        }
+
+        body {
+            background-image: url("../Images/stormy-weather-background.jpg");
+            background-size: 1200px 1024px;
+        }
+        p {
+            justify-content: center;
+            font-size: 27px;
+        }
+        #icon {
+            top: 14px;
+            right: 120px;
+        }
+        #icon img {
+            width: 50%;
+            height: 50%;
+            filter: brightness(100%);
+        }
+        #icon2 {
+            top: 14px;
+            right: 60px;
+        }
+        #icon2 img {
+            width: 50%;
+            height: 50%;
+            filter: invert(30%);
+        }
+        #icon3 {
+            top: 14px;
+            right: 10px;
+        }
+        #icon3 img {
+            width: 50%;
+            height: 50%;
+            filter: invert(100%);
+        }
+    }

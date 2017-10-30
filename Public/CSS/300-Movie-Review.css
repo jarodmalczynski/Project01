@@ -60,3 +60,5 @@ ol li#footnote { font-size: smaller; }
     .A { display: block; width: 100%; }
     .B, .C { float: none; margin: 1rem 0; }
 }
+
+@media screen and (min-width: 400px)
